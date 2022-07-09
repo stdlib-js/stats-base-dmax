@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.dmax;
+})();
 })();
 </script>
 ```
@@ -175,6 +177,7 @@ var v = dmax.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmax@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -188,6 +191,7 @@ console.log( x );
 var v = dmax( x.length, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -284,19 +288,19 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dmax/main/LICENSE
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats-base-dmin/tree/umd
+[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats-base-dmin/tree/umd/tree/umd
 
-[@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats-base-dnanmax/tree/umd
+[@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats-base-dnanmax/tree/umd/tree/umd
 
-[@stdlib/stats/base/max]: https://github.com/stdlib-js/stats-base-max/tree/umd
+[@stdlib/stats/base/max]: https://github.com/stdlib-js/stats-base-max/tree/umd/tree/umd
 
-[@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats-base-smax/tree/umd
+[@stdlib/stats/base/smax]: https://github.com/stdlib-js/stats-base-smax/tree/umd/tree/umd
 
 <!-- </related-links> -->
 

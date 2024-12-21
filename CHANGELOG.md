@@ -6,12 +6,23 @@
 
 ## Unreleased (2024-12-21)
 
+<section class="features">
+
+### Features
+
+-   [`9ff9694`](https://github.com/stdlib-js/stdlib/commit/9ff9694ed033ca90462c7afe4c44aba1ef42d11c) - add C ndarray interface and refactor implementation
+
+</section>
+
+<!-- /.features -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`9ff9694`](https://github.com/stdlib-js/stdlib/commit/9ff9694ed033ca90462c7afe4c44aba1ef42d11c) - **feat:** add C ndarray interface and refactor implementation _(by Athan Reines)_
 -   [`7d33299`](https://github.com/stdlib-js/stdlib/commit/7d3329935deb3341763de86fc185c9c726684afc) - **refactor:** update `stats/base/dmax` native addon from C++ to C [(#4051)](https://github.com/stdlib-js/stdlib/pull/4051) _(by Aayush Khanna, stdlib-bot)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
 -   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
